@@ -30,12 +30,14 @@ class Owner
   end
 
   def sell_pets
-    pets.each do |type|
-      type.each do |pet|
-        pet.each do |mood|
-          pets[pet].mood = "nervous"
-        end
-      end
+    pets[:fishes].each do |fish|
+      fish.mood = "happy"
+    end
+    pets[:cats].each do |cat|
+      cat.mood = "happy"
+    end
+    pets[:dogs].each do |dog|
+      dog.mood = "happy"
     end
   end
 
