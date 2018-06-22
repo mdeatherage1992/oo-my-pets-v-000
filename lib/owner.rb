@@ -43,7 +43,7 @@ class Owner
   end
 
   def list_pets
-    @@all.pets
+    @pets.type.name
   end
 
 
