@@ -30,14 +30,12 @@ class Owner
   end
 
   def sell_pets
-    pets.each do |arrays|
-      arrays.each do |pets|
-        pets.each do |pet|
-          pet.mood = "nervous"
+    pets.each do |type|
+      pets[type].each do |pet|
+        pet.mood = "nervous"
       end
     end
   end
-end
 
 
 
