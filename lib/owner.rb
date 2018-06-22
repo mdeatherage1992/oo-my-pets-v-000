@@ -46,6 +46,7 @@ class Owner
     dog = pets[:dogs].size
     cat = pets[:cats].size
     fish = pets[:fishes].size
+    "I have #{fish} fish, #{dog} dog(s), and #{cat} cat(s)"
   end
 
 
