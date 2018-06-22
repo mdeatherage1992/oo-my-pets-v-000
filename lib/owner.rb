@@ -46,6 +46,7 @@ class Owner
     pets[:dogs].each do |dog|
       dog.name
   end
+end
 
 
 
