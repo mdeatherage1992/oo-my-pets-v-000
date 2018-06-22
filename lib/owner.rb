@@ -43,8 +43,11 @@ class Owner
   end
 
   def list_pets
-    self.pets.collect{|s| s.name}
+    pets[:dogs].collect{|s| s.name}
+    pets[:cats].collect{|a| s.name}
+    pets[:fishes].collect{|y| s.name}
   end
+
 
 
 
