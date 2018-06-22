@@ -41,6 +41,7 @@ class Owner
 
   def list_pets
     self.pets.collect{|name| s.name}
+  end
 
 
 
