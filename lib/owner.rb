@@ -47,7 +47,6 @@ class Owner
     cat = pets.cats.size
     fish = pets.fishes.size
   end
-end
 
 
   def pets
