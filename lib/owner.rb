@@ -43,13 +43,15 @@ class Owner
   end
 
   def list_pets
-    pets[:dogs].each do |dog|
-      dog.name
+
   end
 end
 
 
-
+  def pets
+    @pets
+  end
+  
 
 
 
